@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'courses#index'
   get 'courses/new', to: 'courses#new'
+  get 'student/new', to: 'student#new'
+  get 'students/new', to: 'students#new'
   get 'about', to: 'pages#about'
   resources :students, except: [:destroy]
   # courses controller, index action
