@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="234b88bb-25d6-4cc0-9b38-48f0c55648bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/Monsters_University_Logo.svg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/logins_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/student_courses_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/students_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/student.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/student_course.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/logins/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_errors.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/students/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/students/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/students/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/students/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/students/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uni_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uni_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/courses_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/courses_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/course.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/course.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/courses/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/courses/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
+    <list default="true" id="234b88bb-25d6-4cc0-9b38-48f0c55648bb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -449,12 +417,12 @@
       <workItem from="1548553864684" duration="1036000" />
       <workItem from="1549033941280" duration="2527000" />
       <workItem from="1549043376276" duration="2681000" />
-      <workItem from="1549466940785" duration="17016000" />
+      <workItem from="1549466940785" duration="17259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60277000" />
+    <option name="totallyTimeSpent" value="60520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
