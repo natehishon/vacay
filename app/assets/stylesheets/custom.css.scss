@@ -1,1 +1,46 @@
-@import "materialize";@import "materialize";
+@import "materialize";
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  //margin-top: 40px;
+
+  .bottom-container{
+    height: 100px;
+    //background-color: white;
+    width: 300px;
+    margin: 30px auto;
+
+    a {
+
+      //padding: 10px;
+      //margin: 0 auto;
+      //display: block;
+      //width: 300px!important;
+      img{
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+
+    }
+  }
+
+}
+
+nav {
+  background-color: #1976d2;
+}
+
+.page-footer {
+  background-color: #1976d2;
+}
+.sign-up-form{
+  padding-top:30px;
+}
+
