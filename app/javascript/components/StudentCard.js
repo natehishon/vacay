@@ -17,7 +17,7 @@ class StudentCard extends React.Component {
 
     return (
       <React.Fragment>
-          <div data-test="card-component" className="card-component">
+          <div data-test="component-student-card" className="card-component">
             <div className="card-content ">
               Name: <span className="card-title" data-test="student-name">{this.props.name}</span><br></br>
               Email: <span data-test="student-email">{this.props.email}</span><br></br><br></br>

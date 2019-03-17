@@ -7,8 +7,7 @@ class AddEditCourseForm extends React.Component {
         this.state = {
             name: props.name,
             description: props.description,
-            newCourse: props.newCourse,
-            errors: props.errors
+            newCourse: props.newCourse
         };
         this.handleNameChange = this.handleNameChange.bind(this);
         this.handleDescriptionChange = this.handleDescriptionChange.bind(this);
@@ -23,26 +22,10 @@ class AddEditCourseForm extends React.Component {
     }
 
     render () {
-
-        let errorList = [];
-        if(this.props.errors){
-            errorList = this.props.errors.map(function(error) {
-                return (
-                    <li>
-                        {error}
-                    </li>
-                );
-            });
-        }
-
         return (
             <React.Fragment>
                 <div className="form-component" data-test="component-add-edit-course-form">
-
                     <h3>{this.state.newCourse ? "Create Course" : "Edit Course"}</h3>
-
-                    {errorList}
-
                     <label>Name</label>
                     <input
                         type="text"
@@ -74,8 +57,7 @@ class AddEditCourseForm extends React.Component {
 AddEditCourseForm.propTypes = {
     name: PropTypes.string,
     description: PropTypes.string,
-    newCourse: PropTypes.bool,
-    errors: PropTypes.array
+    newCourse: PropTypes.bool
 };
 
 export default AddEditCourseForm
