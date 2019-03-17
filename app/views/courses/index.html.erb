@@ -1,6 +1,6 @@
 <div class ="index">
-  <div class="course-index-title">
-    <h3 class="center-align">Course Directory</h3>
+  <div class="index-title">
+    <h3>Course Directory</h3>
   </div>
 
   <div class ="card-component-container">
@@ -9,6 +9,8 @@
     <% end %>
   </div>
 
-  <%= link_to "New Course", courses_new_path, :class => "new-button" %>
+  <div class="button-container">
+    <%= link_to "New Course", courses_new_path, :class => "new-button" %>
+  </div>
 
 </div>

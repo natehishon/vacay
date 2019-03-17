@@ -12,25 +12,40 @@
   @media only screen and (min-width: 1000px) {
     width: 1000px;
   }
+  .index-title{
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .card-component-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .new-button{
+      border: 1px solid transparent;
+      border-radius: 4px;
+      text-decoration: none;
+      color: white;
+      outline: none;
+      padding: 10px 30px;
+      margin: 30px;
+      cursor: grab;
+      font-size: 20px;
+      background-color: #209cee;
+    }
+  }
+
+
 }
 
-.card-component-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
-.new-button{
-  border: 1px solid transparent;
-  border-radius: 4px;
-  text-decoration: none;
-  color: white;
-  outline: none;
-  padding: 10px 50px;
-  margin: 30px;
-  cursor: grab;
-  font-size: 20px;
-  background-color: #209cee;
-}
+
 
