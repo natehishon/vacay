@@ -1,0 +1,7 @@
+<%= render 'shared/errors', obj: @course %>
+<div class="form-container">
+
+  <%= form_with(model: @course, html: {class: "col s12"}) do |form| %>
+    <%= react_component 'AddEditCourseForm', { name: @course.name, description: @course.description, newCourse:@course.new_record?, errors:@course.errors.full_messages } %>
+  <% end %>
+</div>

@@ -1,0 +1,36 @@
+@import "../utilities/variables";
+
+.index {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  @media only screen and (min-width: 700px) {
+    width: 700px;
+  }
+  @media only screen and (min-width: 1000px) {
+    width: 1000px;
+  }
+}
+
+
+.new-course-button{
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  outline: none;
+  padding: 10px 50px;
+  margin: 30px;
+  cursor: grab;
+  font-size: 20px;
+  background-color: #209cee;
+}
+
+.course-card-component-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

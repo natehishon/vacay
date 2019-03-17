@@ -1,0 +1,45 @@
+.class-list-container{
+
+  h3{
+    margin-top: 50px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .class-list-ul{
+    list-style: none;
+    width: 300px;
+    margin-top: 50px;
+
+
+    .class-list-item{
+      margin: 8px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .class-course-name{
+        text-align: left;
+      }
+      .class-enroll-link{
+        text-decoration: none;
+        color: #23d160;
+        outline: none;
+        cursor: grab;
+        font-weight: 900;
+        text-align: right;
+
+      }
+    }
+
+
+
+    .already-enrolled{
+      text-decoration: none;
+      color: #ffdd57;
+      outline: none;
+      font-weight: 900;
+    }
+
+  }
+
+}

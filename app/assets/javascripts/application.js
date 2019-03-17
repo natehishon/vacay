@@ -14,17 +14,10 @@
 //= require jquery
 //= require turbolinks
 //= require_tree .
-//= require materialize
 
 
 
 $(document).on('turbolinks:load', function() {
-
-
-    $(".dropdown-trigger").dropdown();
-
-    $('.sidenav').sidenav();
-
 
     $('#fade-out-target').fadeOut(4000)
 });

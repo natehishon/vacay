@@ -22,11 +22,9 @@
 
             <div class="row">
               <div class="input-field col s12">
-                <% if !logged_in? %>
-                  <%#= f.button(students_new_path "Login", class: "btn orange waves-effect waves-light right") %>
-                  <%= link_to "Sign up", students_new_path, :class => "btn waves-effect waves-light right log-button" %>
-
-              <% end %>
+                <%# if !logged_in? %>
+                  <%#= link_to "Sign up", students_new_path, :class => "btn waves-effect waves-light right log-button" %>
+                <%# end %>
                 <%= f.button("Log in", class: "btn orange waves-effect waves-light right") %>
               </div>
             </div>

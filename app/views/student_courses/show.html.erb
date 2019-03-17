@@ -1,0 +1,26 @@
+<div class="class-list-container">
+<h3><%= @student.name %> Class List</h3>
+
+  <ul class="class-list-ul">
+  <% @courses.each do |course| %>
+    <li class="class-list-item">
+
+      <span class="class-course-name"><%= course.name %></span>
+
+      <% if !(@student.courses.include?(course)) %>
+        <%= link_to "Enroll", course_enroll_path(course_id: course.id, student_id: @student.id), method: :post, :class => "class-enroll-link"%>
+        </li>
+
+      <% else %>
+
+        <span class="already-enrolled">Enrolled</span>
+
+
+      <% end %>
+
+
+  <% end %>
+
+  </ul>
+
+</div>

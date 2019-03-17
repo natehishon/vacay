@@ -1,0 +1,44 @@
+.card-component{
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  width: 310px;
+  margin: 10px;
+  padding: 10px;
+
+
+  .card-content{
+
+  }
+
+  .card-action{
+
+    margin: 20px 0 0 0;
+
+    .card-button{
+      border: 1px solid transparent;
+      border-radius: 4px;
+      text-decoration: none;
+      color: white;
+      height: 30px;
+      outline: none;
+      padding: 4px 6px;
+      margin: 3px;
+      cursor: grab;
+      font-size: 14px;
+    }
+
+    .card-edit{
+      background-color: #00d1b2;
+    }
+
+    .card-delete{
+      background-color: #ff3860;
+    }
+
+    .card-add-class{
+      background-color: #3273dc;
+    }
+  }
+
+
+
+}

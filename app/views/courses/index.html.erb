@@ -1,29 +1,14 @@
-<div class ="row">
-
-  <div class="bottom-container">
-    <a href="#" style="width:30px; height:30px;">
-      <%=image_tag("Monsters_University_Logo.svg.png")%>
-    </a>
+<div class ="index">
+  <div class="course-index-title">
+    <h3 class="center-align">Course Directory</h3>
   </div>
 
-  <% @courses.each do |course| %>
-    <div class="col s6 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title"><%= course.short_name %>: <%= course.name %></span>
-          <p><%= course.description %></p>
+  <div class ="card-component-container">
+    <% @courses.order(:created_at).each do |course| %>
+      <%= react_component("CourseCard", {id: course.id, name: course.name, description: course.description, editPath: edit_course_path(course)}) %>
+    <% end %>
+  </div>
 
-        </div>
-        <div class="card-action">
-          <% if logged_in? && !(current_user.courses.include?(course))%>
-            <%= link_to "Enroll", course_enroll_path(course_id: course.id), method: :post%>
-          <% end %>
+  <%= link_to "New Course", courses_new_path, :class => "new-button" %>
 
-          <a href="#">Info</a>
-        </div>
-
-      </div>
-    </div>
-
-  <% end %>
 </div>
