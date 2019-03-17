@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="234b88bb-25d6-4cc0-9b38-48f0c55648bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uni_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uni_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/javascript/addEditCourseForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/javascript/addEditCourseForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/javascript/addEditStudentForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/javascript/addEditStudentForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/javascript/courseCard.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/javascript/courseCard.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/javascript/studentCard.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/javascript/studentCard.test.js" afterDir="false" />
-    </list>
+    <list default="true" id="234b88bb-25d6-4cc0-9b38-48f0c55648bb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -513,12 +499,12 @@
       <workItem from="1552621496216" duration="19208000" />
       <workItem from="1552680905781" duration="16857000" />
       <workItem from="1552710023525" duration="20356000" />
-      <workItem from="1552792124283" duration="14953000" />
+      <workItem from="1552792124283" duration="15760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139046000" />
+    <option name="totallyTimeSpent" value="139853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
