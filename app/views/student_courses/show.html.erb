@@ -1,26 +1,35 @@
 <div class="class-list-container">
 <h3><%= @student.name %> Class List</h3>
 
-  <ul class="class-list-ul">
+  <table class="class-list-table">
+    <tr>
+      <th>Course Name:</th>
+      <th>Status:</th>
+      <th>Action:</th>
+    </tr>
   <% @courses.each do |course| %>
-    <li class="class-list-item">
+    <tr class="class-list-item">
 
-      <span class="class-course-name"><%= course.name %></span>
+      <td class="class-course-name"><%= course.name %></td>
 
       <% if !(@student.courses.include?(course)) %>
-        <%= link_to "Enroll", course_enroll_path(course_id: course.id, student_id: @student.id), method: :post, :class => "class-enroll-link"%>
-        </li>
+        <td class="enroll-text active-enrolled">Active</td>
+        <td><%= link_to "Enroll", course_enroll_path(course_id: course.id, student_id: @student.id), method: :post, :class => "class-enroll-link"%></td>
+
+
 
       <% else %>
 
-        <span class="already-enrolled">Enrolled</span>
+        <td class="enroll-text already-enrolled">Enrolled</td>
+        <td><%= link_to 'Delete', student_course_path(course_id: course.id, student_id: @student.id), method: :delete, :class => "class-delete-link" %></td>
 
 
       <% end %>
+    </tr>
 
 
   <% end %>
 
-  </ul>
+  </table>
 
 </div>

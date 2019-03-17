@@ -19,8 +19,8 @@ class StudentCard extends React.Component {
       <React.Fragment>
           <div data-test="card-component" className="card-component">
             <div className="card-content ">
-              Name: <span className="card-title" data-test="student-name">{this.props.name}</span>
-              Email: <p data-test="student-email">{this.props.email}</p>
+              Name: <span className="card-title" data-test="student-name">{this.props.name}</span><br></br>
+              Email: <span data-test="student-email">{this.props.email}</span><br></br><br></br>
               <span>Course Enrollments:</span>
               <ul data-test="student-courses">{courseList} </ul>
             </div>

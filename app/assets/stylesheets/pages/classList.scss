@@ -1,4 +1,5 @@
 .class-list-container{
+  width: 300px;
 
   h3{
     margin-top: 50px;
@@ -6,17 +7,28 @@
     text-align: center;
   }
 
-  .class-list-ul{
+  .class-list-table{
+    text-align: left;
     list-style: none;
-    width: 300px;
+    width: 100%;
     margin-top: 50px;
+    tr{
+      margin-top: 20px;
+    }
+    th{
+      min-width: 140px;
+    }
+    td{
+      min-width: 140px;
+    }
+
 
 
     .class-list-item{
       margin: 8px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+      //display: flex;
+      //flex-direction: row;
+      //justify-content: space-between;
       .class-course-name{
         text-align: left;
       }
@@ -29,15 +41,30 @@
         text-align: right;
 
       }
+      .class-delete-link{
+        text-decoration: none;
+        color: #ff3860;
+        outline: none;
+        cursor: grab;
+        font-weight: 900;
+        text-align: right;
+
+      }
     }
 
-
-
-    .already-enrolled{
-      text-decoration: none;
-      color: #ffdd57;
+    .enroll-text{
       outline: none;
       font-weight: 900;
+      text-decoration: none;
+    }
+
+    .already-enrolled{
+
+       color: #ffdd57;
+
+     }
+    .active-enrolled{
+      color: #209cee;
     }
 
   }

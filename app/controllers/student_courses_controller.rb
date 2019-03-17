@@ -12,6 +12,15 @@ class StudentCoursesController < ApplicationController
 
   end
 
+  def destroy
+    @student = Student.find(params[:student_id])
+    @course = Course.find(params[:course_id])
+    @studentCourse = StudentCourse.where(course_id:@course.id, student_id: @student.id)
+    @studentCourse.delete(@studentCourse.ids)
+    flash[:notice] = "You have successfully unenrolled the student"
+    redirect_to students_path
+  end
+
   def show
 
   end
@@ -22,7 +31,7 @@ class StudentCoursesController < ApplicationController
 
 
   def set_courses
-    # @courses = Course.where('' + @student.id.to_s +  ' NOT IN (SELECT DISTINCT(student_id) FROM student_courses)')
+
       @courses = Course.all
   end
 
